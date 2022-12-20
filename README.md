@@ -3,7 +3,7 @@ Code snippets of React with Graphql and context api.
 
 ## Folder Structure
 ### Components
-    Contains all component of the application
+  Contains all component of the application
 #### Commom
   Includes all common component for the application
 #### Layouts
