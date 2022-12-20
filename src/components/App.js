@@ -8,8 +8,8 @@ import {
 import { createGlobalStyle } from 'styled-components';
 import GlobalStyles from '../globalStyles';
 import AccessLevels from '../util/AccessLevels';
-// Auth Layout
-import AuthLayout from './layouts/PublicLayout';
+// PublicLayout Layout
+import PublicLayout from './layouts/PublicLayout';
 import Login from '../pages/Login';
 import Register from '../pages/Register';
 import ForgotPassword from '../pages/ForgotPassword';
@@ -47,10 +47,10 @@ export default function App() {
                 <Route exact path="/">
                     <Redirect to="/login" />
                 </Route>
-                <AuthLayout path="/login" component={Login} />
-                <AuthLayout path="/register" component={Register} />
-                <AuthLayout path="/forgotPassword" component={ForgotPassword} />
-                <AuthLayout path="/resetPassword" component={ResetPassword} />
+                <PublicLayout path="/login" component={Login} />
+                <PublicLayout path="/register" component={Register} />
+                <PublicLayout path="/forgotPassword" component={ForgotPassword} />
+                <PublicLayout path="/resetPassword" component={ResetPassword} />
                 {/* Auth required routes */}
                 <AppContext.Provider value={appValue}>
                     <UserContext.Provider value={userValue}>

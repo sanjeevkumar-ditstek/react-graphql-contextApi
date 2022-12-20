@@ -51,8 +51,6 @@ const FormContainer = styled.div`
 `;
 
 export default function AuthLayout({ history, component: Component, ...rest }) {
-  Intercom.boot({}, {}, false);
-
   return (
     <Route
       {...rest}
