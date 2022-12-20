@@ -1,13 +1,10 @@
 /* eslint-disable import/no-duplicates */
 import { faAngleDown as AngleDownRegular } from '@fortawesome/pro-regular-svg-icons';
 import { faCogs as CogsRegular } from '@fortawesome/pro-regular-svg-icons';
-import { faUsdSquare as DollarSquareRegular } from '@fortawesome/pro-regular-svg-icons';
-import { faEnvelopeOpenText as EnvelopeOpenRegular } from '@fortawesome/pro-regular-svg-icons';
 import { faHome as HomeRegular } from '@fortawesome/pro-regular-svg-icons';
 import { faFileImport as ImportRegular } from '@fortawesome/pro-regular-svg-icons';
 import { faPlus as PlusRegular } from '@fortawesome/pro-regular-svg-icons';
 import { faSearch as SearchRegular } from '@fortawesome/pro-regular-svg-icons';
-import { faTag as TagRegular } from '@fortawesome/pro-regular-svg-icons';
 import { faUsers as UsersRegular } from '@fortawesome/pro-regular-svg-icons';
 import { faUsersCrown as UsersAdminRegular } from '@fortawesome/pro-regular-svg-icons';
 import { faArrowLeft as LeftArrow } from '@fortawesome/pro-regular-svg-icons';
@@ -20,8 +17,6 @@ import { faMobileAlt as MobileSolid } from '@fortawesome/free-solid-svg-icons';
 import { faPaperPlane as PaperPlaneSolid } from '@fortawesome/free-solid-svg-icons';
 import { faTimesCircle as TimesCircleSolid } from '@fortawesome/free-solid-svg-icons';
 import { faCommentAltDots as CommentSolid } from '@fortawesome/pro-solid-svg-icons';
-import { faUsdSquare as DollarSquareSolid } from '@fortawesome/pro-solid-svg-icons';
-import { faPaperPlane as PaperPlaneRegular } from '@fortawesome/free-regular-svg-icons';
 import { faSignOut as SignOut } from '@fortawesome/pro-regular-svg-icons';
 import { faUpload as UploadRegular } from '@fortawesome/pro-regular-svg-icons';
 import { faExclamationTriangle as Warning } from '@fortawesome/free-solid-svg-icons';
@@ -53,13 +48,10 @@ export const IconEnum = {
   UploadRegular,
   AngleDownRegular,
   CogsRegular,
-  DollarSquareRegular,
-  EnvelopeOpenRegular,
   HomeRegular,
   ImportRegular,
   PlusRegular,
   SearchRegular,
-  TagRegular,
   UsersRegular,
   UsersAdminRegular,
   LeftArrow,
@@ -71,15 +63,12 @@ export const IconEnum = {
   PaperPlaneSolid,
   TimesCircleSolid,
   CommentSolid,
-  DollarSquareSolid,
-  PaperPlaneRegular,
   SignOut,
   Warning,
   FileExcel,
   Sort,
   SortUp,
   SortDown,
-  SmsRegular,
   GalleryRegular,
   DeleteSolid,
   EditRegular,
